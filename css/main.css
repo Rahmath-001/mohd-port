@@ -1080,7 +1080,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 76.03364%;
+  width: 70%;
 }
 
 @media (max-width: 1200px) {
@@ -1090,17 +1090,13 @@ body {
 }
 
 .partners__partner {
-  width: 33.333333%;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  height: 160px;
+  width: calc(27% - 20px); /* Adjust width to fit four logos per line with margins */
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 4.25926vh;
+  justify-content: center;
+  align-items: center;
+  padding: 3vh;
+  box-sizing: border-box; /* Include padding in width calculation */
 }
 
 @media (max-width: 1200px) {

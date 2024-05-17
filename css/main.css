@@ -253,7 +253,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(13, 27, 42, 0.5); /* Red overlay - adjust as needed */
   z-index: 1;
 }
 
@@ -280,7 +279,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(27, 38, 59, 0.5); /* Red overlay - adjust as needed */
   z-index: 1;
 }
 
@@ -302,7 +300,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(65, 90, 119, 0.5); /* Red overlay - adjust as needed */
   z-index: 1;
 }
 
@@ -326,7 +323,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(119, 141, 169, 0.5); /* Red overlay - adjust as needed */
   z-index: -1;
 }
 
@@ -351,7 +347,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-   background-color: rgba(13, 27, 42, 0.5); /* Dark blue */
   z-index: 1;
 }
 
@@ -376,7 +371,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(27, 38, 59, 0.5); /* Blue */
   z-index: 1;
 }
 
@@ -401,7 +395,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(65, 90, 119, 0.5); /* Light blue */
   z-index: 1;
 }
 
@@ -426,7 +419,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(119, 141, 169, 0.5); /* Grey blue */
   z-index: 1;
 }
 
@@ -451,7 +443,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(224, 225, 221, 0.5); /* Light grey */
   z-index: 1;
 }
 
@@ -477,7 +468,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #1F1F1F;
+  /* background-color: #1F1F1F; */
   opacity: 0.3;
   z-index: 1;
 }
@@ -2707,7 +2698,7 @@ body {
   }
 }
 
-.header__social-item:first-child {
+.header__social-item {
   margin-right: 50px;
 }
 
@@ -2812,6 +2803,7 @@ body {
 }
 
 .header__menu-list {
+  color: white;
   overflow-y: auto;
   opacity: 0;
   -webkit-transition: opacity .6s ease;
@@ -2840,13 +2832,13 @@ body {
 .header__menu-social {
   position: absolute;
   top: 40px;
-  left: 150px;
+  left: 100px;
   font-family: SF Pro Display;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 140%;
-  color: black;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2867,7 +2859,7 @@ body {
 .header__menu-content {
   position: relative;
   padding-top: 13.88889vh;
-  padding-left: 150px;
+  padding-left: 100px;
   height: 100%;
 }
 
@@ -2889,8 +2881,8 @@ body {
   position: absolute;
   width: 40px;
   height: 40px;
-  top: 27px;
-  right: 80px;
+  top: 32px;
+  right: 82px;
   -webkit-transition: .3s ease;
   transition: .3s ease;
   cursor: pointer;
@@ -2914,7 +2906,7 @@ body {
   display: block;
   height: 40px;
   width: 2px;
-  background-color: black;
+  background-color: white;
 }
 
 .header__menu-exit::after {
@@ -2972,7 +2964,7 @@ body {
 .header__menu-contacts {
   font-size: 18px;
   line-height: 140%;
-  color: black;
+  color: white;
   position: absolute;
   bottom: 60px;
   right: 90px;

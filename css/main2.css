@@ -37,7 +37,6 @@
 
 body {
   background: #000;
-  color: #F3F3F3;
 }
 
 .section {
@@ -200,13 +199,14 @@ body {
 -------------------------------------------------------------------------------*/
 /* 2.1 Case */
 body {
-  background: url(../img/case/case-page.jpg);
+  background: url(../images/black.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 /* 2.2 Info */
 .info-inner {
+  color: white;
   padding-left: 293px;
 }
 
@@ -244,7 +244,7 @@ body {
   font-weight: normal;
   font-size: 110px;
   line-height: 110%;
-  color: #F3F3F3;
+  color: white;
 }
 
 @media (max-width: 767px) {
@@ -313,7 +313,6 @@ body {
   font-weight: normal;
   font-size: 18px;
   line-height: 140%;
-  color: #F3F3F3;
   margin-bottom: 20px;
 }
 
@@ -322,7 +321,6 @@ body {
   font-weight: normal;
   font-size: 22px;
   line-height: 140%;
-  color: #F3F3F3;
 }
 
 .info__text {
@@ -330,7 +328,6 @@ body {
   font-weight: normal;
   font-size: 40px;
   line-height: 120%;
-  color: #DBDBDB;
   width: 100%;
   max-width: 987px;
 }
@@ -374,8 +371,8 @@ body {
 
 /* 2.4 Next */
 .next {
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 @media (max-width: 1559px) {
@@ -393,6 +390,7 @@ body {
 }
 
 .next__inner {
+  color: white;
   padding-left: 293px;
 }
 
@@ -407,7 +405,6 @@ body {
   font-weight: 300;
   font-size: 40px;
   line-height: 120%;
-  color: #DBDBDB;
 }
 
 .next__link {
@@ -494,7 +491,6 @@ body {
   font-weight: 300;
   font-size: 70px;
   line-height: 110%;
-  color: #F3F3F3;
 }
 
 @media (max-width: 1200px) {
@@ -756,12 +752,12 @@ body {
 }
 
 .hero__text-text {
+  color: white;
   font-family: 'SF Pro Display';
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 140%;
-  color: #DBDBDB;
   width: 100%;
   margin-top: 200px;
   max-width: 880px;
@@ -793,7 +789,7 @@ body {
 
 /* 2.6 Blog */
 body {
-  background-image: url(../img/blog/blog-page.jpg);
+  background-image: url(../images/black.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -857,7 +853,6 @@ body {
   font-weight: normal;
   font-size: 110px;
   line-height: 110%;
-  color: #F3F3F3;
   margin-top: 20px;
 }
 
@@ -884,7 +879,6 @@ body {
   font-weight: normal;
   font-size: 22px;
   line-height: 140%;
-  color: #DBDBDB;
   max-width: 840px;
   margin-top: 70px;
 }
@@ -1040,7 +1034,6 @@ body {
   font-weight: normal;
   font-size: 22px;
   line-height: 140%;
-  color: #F3F3F3;
 }
 
 .blog-more__share {
@@ -1077,7 +1070,6 @@ body {
   font-weight: 300;
   font-size: 70px;
   line-height: 110%;
-  color: #F3F3F3;
   margin-top: 200px;
 }
 
@@ -1098,7 +1090,6 @@ body {
   font-weight: 300;
   font-size: 40px;
   line-height: 120%;
-  color: #F3F3F3;
   margin-top: 200px;
 }
 
@@ -1275,7 +1266,6 @@ body {
   font-weight: 300;
   font-size: 40px;
   line-height: 120%;
-  color: #F3F3F3;
   margin-top: 10px;
 }
 
@@ -1290,7 +1280,6 @@ body {
   font-weight: normal;
   font-size: 22px;
   line-height: 140%;
-  color: #F3F3F3;
 }
 
 .comment__reply:hover {
@@ -1310,7 +1299,6 @@ body {
   font-weight: normal;
   font-size: 22px;
   line-height: 140%;
-  color: #DBDBDB;
   margin-top: 40px;
 }
 
@@ -1380,7 +1368,6 @@ body {
   font-weight: normal;
   font-size: 18px;
   line-height: 140%;
-  color: #F3F3F3;
   border-bottom: 1px solid #787A7C;
   padding-bottom: 20px;
   width: 100%;
@@ -1404,7 +1391,6 @@ body {
   font-size: 18px;
   line-height: 140%;
   height: 46px;
-  color: #F3F3F3;
   border-bottom: 1px solid #787A7C;
   padding-bottom: 20px;
   margin-top: 170px;
@@ -1421,7 +1407,6 @@ body {
   font-weight: normal;
   font-size: 18px;
   line-height: 140%;
-  color: #F3F3F3;
 }
 
 .comment-form__button {
@@ -1697,8 +1682,8 @@ input[type="checkbox"]:checked + label:after {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   max-width: 485px;
   width: 100%;
 }
@@ -1727,6 +1712,7 @@ input[type="checkbox"]:checked + label:after {
 
 .header__author-mail {
   position: relative;
+  color: white;
   -webkit-transition: .3s ease;
   transition: .3s ease;
   display: -webkit-box;
@@ -1768,12 +1754,13 @@ input[type="checkbox"]:checked + label:after {
 
 .header__right-inner {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 40%;
+  color: white;
 }
 
 @media (max-width: 992px) {
@@ -1802,7 +1789,7 @@ input[type="checkbox"]:checked + label:after {
 }
 
 .header__social-item {
-  position: relative;
+  margin-right: 50px;
 }
 
 .header__social-item:first-child {
@@ -1831,11 +1818,11 @@ input[type="checkbox"]:checked + label:after {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   cursor: pointer;
 }
 
@@ -1853,9 +1840,8 @@ input[type="checkbox"]:checked + label:after {
   display: block;
   width: 40px;
   height: 2px;
-  background-color: #F3F3F3;
+  background-color: white;
   position: absolute;
-  background-color: #F3F3F3;
 }
 
 .header__burger span::after {
@@ -1901,6 +1887,7 @@ input[type="checkbox"]:checked + label:after {
 }
 
 .header__menu-list {
+  color: white;
   overflow-y: auto;
 }
 
@@ -1910,15 +1897,15 @@ input[type="checkbox"]:checked + label:after {
 }
 
 .header__menu-social {
+  color: white;
   position: absolute;
   top: 40px;
-  left: 150px;
+  left: 100px;
   font-family: SF Pro Display;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 140%;
-  color: #F3F3F3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1956,8 +1943,8 @@ input[type="checkbox"]:checked + label:after {
   position: absolute;
   width: 40px;
   height: 40px;
-  top: 27px;
-  right: 80px;
+  top: 30px;
+  right: 85px;
   -webkit-transition: .3s ease;
   transition: .3s ease;
   cursor: pointer;
@@ -2034,7 +2021,6 @@ input[type="checkbox"]:checked + label:after {
 }
 
 .header__menu-link:hover {
-  color: #F3F3F3;
 }
 
 .header__menu-link:hover::after {
@@ -2043,9 +2029,9 @@ input[type="checkbox"]:checked + label:after {
 }
 
 .header__menu-contacts {
+  color: white;
   font-size: 18px;
   line-height: 140%;
-  color: #F3F3F3;
   position: absolute;
   bottom: 60px;
   right: 90px;

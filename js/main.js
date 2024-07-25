@@ -261,7 +261,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     $("a.fancybox").fancybox({
         type: 'iframe',
-        allowfullscreen: 'true'
+        allowfullscreen: 'true',
+        width: 800,
+        height: 1500
     });
 });
 

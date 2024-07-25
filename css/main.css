@@ -700,6 +700,14 @@ body {
   transition: .3s ease;
 }
 
+.fancybox-slide--iframe .fancybox-content {
+  background: #fff;
+  width: 1500px;
+  height: 700px;
+}
+
+
+
 @media (max-width: 767px) {
   .about__img-play {
     width: 75px;
